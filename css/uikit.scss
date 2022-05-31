@@ -1,0 +1,42 @@
+$black: #000;
+$dgrey: #1a1a1a;
+$grey: rgba(26, 26, 26, 0.8);
+$lgrey: rgba(255, 255, 255, 0.8);
+$white: #fff;
+$accent: #dcac9b;
+
+h1 {
+  font-family: 'Saugadar';
+  font-weight: 400;
+  font-size: 275px;
+  line-height: 250px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sukhumvit';
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p__title {
+  font-family: 'Saudagar';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.p__text {
+  font-family: 'Sukhumvit Set';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+}
