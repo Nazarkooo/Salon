@@ -23,7 +23,6 @@ h3 {
   line-height: 65px;
   text-align: center;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .p__text {
@@ -32,13 +31,4 @@ h3 {
   font-size: 22px;
   line-height: 38px;
   text-align: center;
-}
-
-.third__block {
-  height: 120vh;
-  width: 100%;
-}
-.third__block img {
-  margin: 0 auto;
-  width: 80%;
 }
