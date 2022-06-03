@@ -212,14 +212,13 @@
 .fourth__block {
   margin: 0 auto;
   margin-top: 25%;
-  width: 100%;
-  height: 100vh;
+  width: 1920px;
+  height: 950px;
   background-color: $dgrey;
 
   .fourth__block__wrapper {
     margin: 0 auto;
     width: 70%;
-    height: 1030px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -227,9 +226,12 @@
   }
 
   .fourth__block__img {
-    width: 580px;
-    height: 1030px;
-    margin-top: -120px;
+    img {
+      width: 580px;
+      height: 1030px;
+      object-fit: cover;
+      margin-top: -80px;
+    }
   }
 }
 
@@ -331,7 +333,11 @@
 
     .sixth__block__img {
       width: 50%;
-      height: 1080px;
+      img {
+        width: 970px;
+        height: 1080px;
+        object-fit: cover;
+      }
     }
   }
 
