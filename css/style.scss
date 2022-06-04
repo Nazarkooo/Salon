@@ -111,7 +111,7 @@
 
 .second__block {
   background-color: $dgrey;
-  height: 100vh;
+  height: 1280px;
 
   ul {
     font-family: 'Saugadar';
@@ -155,7 +155,6 @@
   }
   .p__second {
     padding-top: 20px;
-    padding-bottom: 440px;
   }
   .p__title {
     margin: 0 auto;
@@ -174,11 +173,11 @@
     margin-top: -100px;
     width: 60%;
     display: block;
+    margin-bottom: 340px;
   }
 
   .third__block__bottom {
     margin: 0 auto;
-    margin-top: 340px;
     width: 70%;
     height: 330px;
 
