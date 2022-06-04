@@ -113,13 +113,37 @@
   background-color: $dgrey;
   height: 100vh;
 
-  h1 {
-    color: $white;
-    font-size: 305px;
+  ul {
+    font-family: 'Saugadar';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    list-style-type: none;
     line-height: 315px;
-    white-space: nowrap;
-    text-align: justify;
-    opacity: 0.06;
+    opacity: 0;
+    color: $white;
+    animation: coming__soon;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+    li {
+      width: 100%;
+    }
+  }
+
+  @keyframes coming__soon {
+    from {
+      font-size: 5px;
+      opacity: 0;
+    }
+
+    to {
+      opacity: 0.06;
+      font-size: 305px;
+    }
   }
 
   .p__content {
@@ -148,7 +172,7 @@
   & > img {
     margin: 0 auto;
     margin-top: -100px;
-    width: 80%;
+    width: 60%;
     display: block;
   }
 
@@ -211,7 +235,7 @@
 
 .fourth__block {
   margin: 0 auto;
-  margin-top: 25%;
+  margin-top: 500px;
   width: 100%;
   height: 950px;
   background-color: $dgrey;
@@ -237,7 +261,7 @@
 
 .fifth__block {
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 240px;
   width: 100%;
   height: 160vh;
 
@@ -263,13 +287,19 @@
   }
 
   .phone__wrapper {
+    height: 756px;
     margin-top: 10%;
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-right: 115px;
-    padding-left: 115px;
+
+    .circle__wrapper {
+      display: flex;
+      gap: 35px;
+
+      height: 541px;
+    }
     .circle {
       width: 541px;
       height: 541px;
@@ -284,7 +314,7 @@
       height: 760px;
       display: block;
       position: absolute;
-      margin-top: -100px;
+
       z-index: 1;
     }
   }
@@ -307,12 +337,19 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
+      font-family: 'Sukhumvit';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
       a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: $white;
         text-decoration: none;
         border: 1px solid $black;
         background-color: $black;
-        padding: 15px 36px 15px 66px;
+        padding: 15px 36px 15px 36px;
 
         img {
           padding-right: 10px;
@@ -323,8 +360,8 @@
 }
 
 .sixth__block {
-  margin-top: 15%;
-  height: 100vh;
+  margin-top: 400px;
+
   width: 100%;
 
   .sixth__block__wrapper {
@@ -334,24 +371,31 @@
 
     .sixth__block__img {
       width: 50%;
-      width: 1080px;
+
       img {
-        object-fit: cover;
+        width: 100%;
+        height: 100%;
       }
     }
   }
 
+  .form__wrapper {
+    width: 50%;
+    display: flex;
+  }
   form {
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: $dgrey;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 1080px;
-    gap: 80px;
+    gap: 60px;
     padding: 120px 200px;
 
     h3 {
+      float: left;
       font-family: 'Saugadar';
       font-weight: 400;
       font-size: 50px;
@@ -375,7 +419,6 @@
 }
 
 footer {
-  margin-top: 110px;
   width: 100%;
 }
 .footer__wrapper {
