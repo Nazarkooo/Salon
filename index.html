@@ -27,7 +27,13 @@
           </nav>
         </header>
         <div class="header__content">
-          <h1>Salon</h1>
+          <ul>
+            <li>S</li>
+            <li>a</li>
+            <li>l</li>
+            <li>o</li>
+            <li>n</li>
+          </ul>
           <h3>Quality Lashes from the comfort of your home</h3>
           <a href="" class="subscribe__btn">Subscribe</a>
         </div>
@@ -129,13 +135,37 @@
           <div class="form__wrapper">
             <form action="">
               <h3>Subscribe</h3>
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="Last Name" />
-              <input type="text" placeholder="Interested in being a client or lashes" />
-              <input type="text" placeholder="City" />
-              <input type="text" placeholder="State" />
-              <input type="text" placeholder="Phone Number " />
-              <input type="text" placeholder="Email" />
+              <label for="first_name"
+                >First Name
+                <input type="text" id="first_name" />
+              </label>
+              <label for="last_name"
+                >Last Name
+                <input type="text" id="last_name" />
+              </label>
+
+              <label for="interested_in">Interested in being a client or lashes <input type="text" id="interested_in" /> </label>
+
+              <label for="city"
+                >City
+                <input type="text" id="city" />
+              </label>
+
+              <label for="state"
+                >State
+                <input type="text" id="state" />
+              </label>
+
+              <label for="phone_number"
+                >Phone Number
+                <input type="text" id="phone_number" />
+              </label>
+
+              <label for="email"
+                >Email
+                <input type="text" id="email" />
+              </label>
+
               <input class="submit" type="submit" value="Subscribe" />
             </form>
           </div>
