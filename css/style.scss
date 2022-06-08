@@ -83,75 +83,45 @@
 
   .header__content {
     text-align: center;
-    ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
+    height: 270px;
+    h1 {
+      color: $white;
       font-family: 'Saugadar';
       font-weight: 400;
       line-height: 250px;
       text-transform: uppercase;
       margin-top: 15%;
-
-      li:first-child {
-        animation: title;
-        animation-duration: 2s;
-        animation-delay: 0.4s;
-        animation-fill-mode: forwards;
-
-        opacity: 0;
-      }
-
-      @keyframes title {
-        from {
-          opacity: 0;
-          color: $white;
-        }
-
-        to {
-          font-size: 275px;
-          opacity: 1;
-          color: $white;
-        }
-      }
-
-      li:nth-child(2) {
-        animation: title;
-        animation-duration: 2s;
-        animation-delay: 0.5s;
-        animation-fill-mode: forwards;
-
-        opacity: 0;
-      }
-
-      li:nth-child(3) {
-        animation: title;
-        animation-duration: 2s;
-        animation-delay: 0.6s;
-        animation-fill-mode: forwards;
-
-        opacity: 0;
-      }
     }
 
-    li:nth-child(4) {
+    #title::after {
+      content: ' ';
       animation: title;
-      animation-duration: 2s;
-      animation-delay: 0.7s;
-      animation-fill-mode: forwards;
-      animation-direction: alternate;
-
-      opacity: 0;
+      animation: duration 4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
     }
-
-    li:nth-child(5) {
-      animation: title;
-      animation-duration: 2s;
-      animation-delay: 0.8s;
-      animation-fill-mode: forwards;
-
-      opacity: 0;
+    @keyframes title {
+      0% {
+        content: ' ';
+      }
+      22.5% {
+        content: 'S';
+      }
+      35% {
+        content: 'SA';
+      }
+      47.2% {
+        content: 'SAL';
+      }
+      60% {
+        content: 'SALO';
+      }
+      72.5% {
+        content: 'SALON';
+      }
+      100% {
+        content: 'SALON';
+      }
     }
 
     h3 {
