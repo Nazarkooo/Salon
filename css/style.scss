@@ -99,6 +99,7 @@
         animation-duration: 2s;
         animation-delay: 0.4s;
         animation-fill-mode: forwards;
+
         opacity: 0;
       }
 
@@ -118,86 +119,39 @@
       li:nth-child(2) {
         animation: title;
         animation-duration: 2s;
-        animation-delay: 0.8s;
+        animation-delay: 0.5s;
         animation-fill-mode: forwards;
+
         opacity: 0;
-      }
-
-      @keyframes title {
-        from {
-          opacity: 0;
-          color: $white;
-        }
-
-        to {
-          font-size: 275px;
-          opacity: 1;
-          color: $white;
-        }
       }
 
       li:nth-child(3) {
         animation: title;
         animation-duration: 2s;
-        animation-delay: 1.2s;
+        animation-delay: 0.6s;
         animation-fill-mode: forwards;
+
         opacity: 0;
       }
+    }
 
-      @keyframes title {
-        from {
-          opacity: 0;
-          color: $white;
-        }
+    li:nth-child(4) {
+      animation: title;
+      animation-duration: 2s;
+      animation-delay: 0.7s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
 
-        to {
-          font-size: 275px;
-          opacity: 1;
-          color: $white;
-        }
-      }
+      opacity: 0;
+    }
 
-      li:nth-child(4) {
-        animation: title;
-        animation-duration: 2s;
-        animation-delay: 1.6s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-      }
+    li:nth-child(5) {
+      animation: title;
+      animation-duration: 2s;
+      animation-delay: 0.8s;
+      animation-fill-mode: forwards;
 
-      @keyframes title {
-        from {
-          opacity: 0;
-          color: $white;
-        }
-
-        to {
-          font-size: 275px;
-          opacity: 1;
-          color: $white;
-        }
-      }
-
-      li:nth-child(5) {
-        animation: title;
-        animation-duration: 2s;
-        animation-delay: 2s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-      }
-
-      @keyframes title {
-        from {
-          opacity: 0;
-          color: $white;
-        }
-
-        to {
-          font-size: 275px;
-          opacity: 1;
-          color: $white;
-        }
-      }
+      opacity: 0;
     }
 
     h3 {
@@ -447,22 +401,25 @@
         animation: circles 0.6s ease-in-out both;
         animation-duration: 2s;
         animation-iteration-count: infinite;
+        animation-direction: alternate;
       }
 
       .circle:nth-child(2) {
         animation: circles 0.6s ease-in-out forwards;
         animation-duration: 2s;
         animation-iteration-count: infinite;
+        animation-direction: alternate;
       }
 
       .third__circle {
         animation: circles 0.6s ease-in-out both;
         animation-duration: 2s;
         animation-iteration-count: infinite;
+        animation-direction: alternate;
       }
       @keyframes circles {
         0% {
-          transform: translateX(-800px) rotate(-540deg);
+          transform: translateX(-100px) rotate(-540deg);
         }
         100% {
           transform: translateX(0) rotate(0deg);
