@@ -6,7 +6,6 @@ for (let i = 0; i < blocks.length; i++) {
     'mouseenter',
     function () {
       numbers[i].classList.add('number__animation');
-      console.log('slovo');
     },
     false,
   );
