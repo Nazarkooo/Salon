@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salon</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="header__bg">
@@ -65,7 +66,9 @@
             <img src="./images/second_block-2.png" alt="" />
           </div>
           <div class="number__block">
-            <p class="number">01</p>
+            <div class="number">
+              <p class="number__sub">01</p>
+            </div>
             <p class="title">Make your own schedule</p>
             <p class="text">Work then you want, without having to go into a salon everyday.</p>
           </div>
@@ -75,7 +78,9 @@
       <div class="fourth__block">
         <div class="fourth__block__wrapper">
           <div class="number__block">
-            <p class="number">02</p>
+            <div class="number">
+              <p class="number__sub">02</p>
+            </div>
             <p class="title">Make good money</p>
             <p class="text">Who says artists can’t get paid well? Our clients appreciate your mastery.</p>
           </div>
@@ -89,12 +94,16 @@
       <div class="fifth__block">
         <div class="fifth__block__wrapper">
           <div class="number__block number__block__wrap">
-            <p class="number">03</p>
+            <div class="number">
+              <p class="number__sub">03</p>
+            </div>
             <p class="title">Make your skills sharper</p>
             <p class="text">Apply to be a Master lash artist with increased marketing perks and pricing for your services and talent.</p>
           </div>
           <div class="number__block number__block__wrap">
-            <p class="number">04</p>
+            <div class="number">
+              <p class="number__sub">04</p>
+            </div>
             <p class="title">Make it personal</p>
             <p class="text">Get to know your clients and build a bigger book of clients faster.</p>
           </div>
@@ -129,37 +138,40 @@
           <div class="form__wrapper">
             <form action="">
               <h3>Subscribe</h3>
-              <label for="first_name"
-                >First Name
-                <input type="text" id="first_name" />
-              </label>
-              <label for="last_name"
-                >Last Name
-                <input type="text" id="last_name" />
-              </label>
+              <div class="form-item">
+                <input type="text" id="username" autocomplete="off" required />
+                <label for="username">First name</label>
+              </div>
 
-              <label for="interested_in">Interested in being a client or lashes <input type="text" id="interested_in" /> </label>
+              <div class="form-item">
+                <input type="text" id="password" autocomplete="off" required />
+                <label for="password">Last name</label>
+              </div>
 
-              <label for="city"
-                >City
-                <input type="text" id="city" />
-              </label>
+              <div class="form-item">
+                <input type="text" id="username" autocomplete="off" required />
+                <label for="username">Interested in being a client or lashes</label>
+              </div>
 
-              <label for="state"
-                >State
-                <input type="text" id="state" />
-              </label>
+              <div class="form-item">
+                <input type="text" id="password" autocomplete="off" required />
+                <label for="password">City</label>
+              </div>
 
-              <label for="phone_number"
-                >Phone Number
-                <input type="text" id="phone_number" />
-              </label>
+              <div class="form-item">
+                <input type="text" id="username" autocomplete="off" required />
+                <label for="username">State</label>
+              </div>
 
-              <label for="email"
-                >Email
-                <input type="text" id="email" />
-              </label>
+              <div class="form-item">
+                <input type="text" id="password" autocomplete="off" required />
+                <label for="password">Phone Number </label>
+              </div>
 
+              <div class="form-item">
+                <input type="text" id="password" autocomplete="off" required />
+                <label for="password">Email</label>
+              </div>
               <input class="submit" type="submit" value="Subscribe" />
             </form>
           </div>
