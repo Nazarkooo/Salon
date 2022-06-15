@@ -82,7 +82,9 @@
   }
 
   .header__content {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
       color: $white;
@@ -130,7 +132,7 @@
       margin-bottom: 70px;
     }
 
-    a {
+    .subscribe__btn {
       z-index: 1;
       text-decoration: none;
       color: $dgrey;
@@ -144,6 +146,10 @@
       padding: 14px 100px;
     }
   }
+}
+
+.bottom__nav {
+  display: none !important;
 }
 
 .second__block {

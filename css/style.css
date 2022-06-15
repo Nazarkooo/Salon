@@ -102,7 +102,9 @@ h3 {
   padding-right: 10px;
 }
 .header__bg .header__content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header__bg .header__content h1 {
   color: #fff;
@@ -147,7 +149,7 @@ h3 {
   color: #fff;
   margin-bottom: 70px;
 }
-.header__bg .header__content a {
+.header__bg .header__content .subscribe__btn {
   z-index: 1;
   text-decoration: none;
   color: #1a1a1a;
@@ -159,6 +161,10 @@ h3 {
   background-color: #dcac9b;
   border-radius: 2px;
   padding: 14px 100px;
+}
+
+.bottom__nav {
+  display: none !important;
 }
 
 .second__block {
@@ -577,15 +583,46 @@ h3 {
     display: none;
   }
 
-  .header__content h1 {
-    font-size: 100px;
+  .header__bg {
+    background-position: right 50% top 50%;
   }
-  .header__content h3 {
+  .header__bg .header__content h1 {
+    font-size: 100px;
+    height: 220px;
+  }
+  .header__bg .header__content h3 {
+    text-align: center;
     font-size: 18px;
+    width: 315px;
+  }
+  .header__bg .header__content .bottom__nav {
+    display: flex !important;
+    justify-content: center;
+    font-size: 12px;
+    gap: 10px;
+    width: 300px;
   }
 
-  .circle__wrapper {
-    overflow: hidden;
+  .second__block {
+    height: auto;
+  }
+  .second__block ul {
+    font-size: 62px;
+  }
+
+  .third__block {
+    display: none;
+  }
+
+  .fourth__block {
+    display: none;
+  }
+
+  .fifth__block {
+    display: none;
+  }
+
+  .sixth__block {
     display: none;
   }
 
@@ -593,12 +630,8 @@ h3 {
     display: none;
   }
 
-  .form__wrapper {
+  .sixth__block .form__wrapper {
     width: 100%;
-  }
-
-  form {
-    width: auto;
   }
 
   .footer__wrapper {
