@@ -559,9 +559,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0 120px;
-  background-color: red;
 
   p {
     color: $white;
   }
 }
+
+@import 'responsive';
