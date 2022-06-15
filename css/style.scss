@@ -154,7 +154,7 @@
 
 .second__block {
   background-color: $dgrey;
-  height: 1280px;
+  padding-bottom: 250px;
 
   ul {
     font-family: 'Saugadar';
@@ -164,28 +164,28 @@
     align-items: center;
     text-transform: uppercase;
     list-style-type: none;
-    line-height: 315px;
+    line-height: 150px;
     opacity: 0;
     text-align: center;
     color: $white;
-    animation: coming__soon;
-    animation-duration: 2s;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
+    opacity: 0.06;
+    font-size: 14vh;
+
     li {
       flex: 1;
+      animation: coming__soon;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
     }
   }
 
   @keyframes coming__soon {
     from {
-      font-size: 5px;
-      opacity: 0;
+      transform: scale(0);
     }
 
     to {
-      opacity: 0.06;
-      font-size: 305px;
+      transform: scale(1);
     }
   }
 
