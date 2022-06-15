@@ -1,8 +1,26 @@
 @import 'uikit';
 
 @media screen and (max-width: 375px) {
+  header {
+    justify-content: center;
+    padding: 70px 0 0 0;
+
+    nav {
+      display: none;
+    }
+  }
+
+  .header__content {
+    h1 {
+      font-size: 100px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+  }
   .circle__wrapper {
     overflow: hidden;
+    display: none;
   }
 
   .sixth__block__img {
@@ -11,6 +29,9 @@
 
   .form__wrapper {
     width: 100%;
+  }
+  form {
+    width: auto;
   }
   .footer__wrapper {
     padding: 0 20px;
