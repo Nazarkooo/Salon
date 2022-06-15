@@ -1,0 +1,19 @@
+@import 'uikit';
+
+@media screen and (max-width: 375px) {
+  .circle__wrapper {
+    overflow: hidden;
+  }
+
+  .sixth__block__img {
+    display: none;
+  }
+
+  .form__wrapper {
+    width: 100%;
+  }
+  .footer__wrapper {
+    padding: 0 20px;
+    background-color: green;
+  }
+}

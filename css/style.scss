@@ -457,11 +457,13 @@
 .sixth__block {
   margin-top: 200px;
   width: 100%;
+  background-color: blue;
 
   .sixth__block__wrapper {
     display: flex;
     width: 100%;
     height: 970px;
+    background-color: pink;
 
     .sixth__block__img {
       width: 50%;
@@ -475,7 +477,6 @@
 
   .form__wrapper {
     width: 50%;
-
     display: flex;
   }
 
@@ -557,7 +558,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 120px 0 120px;
+  padding: 0 120px;
+  background-color: red;
 
   p {
     color: $white;
