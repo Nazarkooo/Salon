@@ -153,6 +153,7 @@
 }
 
 .second__block {
+  padding-top: 20px;
   background-color: $dgrey;
   padding-bottom: 250px;
 
@@ -169,7 +170,7 @@
     text-align: center;
     color: $white;
     opacity: 0.06;
-    font-size: 150px;
+    font-size: 20vh;
 
     li {
       flex: 1;
@@ -300,6 +301,9 @@
   }
 
   .fourth__block__img {
+    .fourth__block__second__img {
+      display: none;
+    }
     img {
       width: 580px;
       height: 1030px;
@@ -311,7 +315,6 @@
 .fifth__block {
   margin-top: 240px;
   width: 100%;
-  height: 160vh;
 
   .fifth__block__wrapper {
     margin: 0 auto;

@@ -41,10 +41,10 @@
   /////////////////////////////////////////////////
   .second__block {
     height: auto;
-    padding-bottom: 100px;
+    padding: 0px 0 100px 0;
 
     ul {
-      font-size: 9vh;
+      font-size: 8vh;
       line-height: 70px;
     }
 
@@ -140,18 +140,20 @@
         font-size: 14px !important;
         line-height: 24px !important;
         height: 50px !important;
-        width: 300px;
+        width: 290px;
       }
 
       .fourth__block__img {
         width: 375px;
         height: 206px;
-
-        img {
-          margin-top: 100px;
+        .fourth__block__second__img {
+          display: block;
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          margin-top: 100px;
+        }
+        img {
+          display: none;
         }
       }
     }
