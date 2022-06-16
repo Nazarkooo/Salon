@@ -767,6 +767,28 @@ h3 {
   .fifth__block .phone__wrapper .circle__wrapper {
     gap: 15px;
     height: 202px;
+    animation-name: circle__wrapper;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes circle__wrapper {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(-50px);
+    }
+    50% {
+      transform: translateX(0px);
+    }
+    75% {
+      transform: translateX(50px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
   }
   .fifth__block .phone__wrapper .circle__wrapper .circle {
     width: 202px;
@@ -779,6 +801,11 @@ h3 {
   .fifth__block .phone__wrapper .circle__wrapper .third__circle {
     width: 202px;
     height: 202px;
+    animation-name: crcles;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
   }
   .fifth__block .phone__wrapper .circle__wrapper .third__circle img {
     width: 200px;
