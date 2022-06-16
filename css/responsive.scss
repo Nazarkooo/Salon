@@ -329,21 +329,21 @@
     background-position: right 50% top 50%;
     .header__content {
       h1 {
-        font-size: 100px;
+        font-size: 200px;
         height: 220px;
       }
       h3 {
         text-align: center;
-        font-size: 18px;
-        width: 315px;
+        font-size: 26px;
+        width: 450px;
       }
 
       .bottom__nav {
         display: flex !important;
         justify-content: center;
-        font-size: 12px;
+        font-size: 20px;
         gap: 10px;
-        width: 300px;
+        width: 500px;
       }
     }
   }
