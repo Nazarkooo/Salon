@@ -893,7 +893,7 @@ h3 {
 
   .second__block {
     height: auto;
-    padding: 0px 0 100px 0;
+    padding: 0px 0 300px 0;
   }
   .second__block ul {
     font-size: 8vh;
@@ -901,13 +901,13 @@ h3 {
   }
   .second__block .p__title {
     margin-top: 0;
-    font-size: 20px;
-    width: 350px;
-    line-height: 32px;
+    font-size: 28px;
+    width: 500px;
+    line-height: 40px;
   }
   .second__block .p__text {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 32px;
   }
   .second__block .p__content {
     width: 300px;
@@ -931,15 +931,16 @@ h3 {
     padding: 0 20px 50px 20px;
   }
   .third__block .third__block__bottom .third__block__img {
-    width: 335px;
-    height: 183px;
+    width: 670px;
+    height: 366px;
   }
 
   .title {
-    font-size: 24px !important;
-    line-height: 32px !important;
-    width: 350px;
+    font-size: 32px !important;
+    line-height: 40px !important;
+    width: 500px;
     height: 32px !important;
+    white-space: nowrap;
   }
 
   .number__block {
@@ -953,12 +954,13 @@ h3 {
   }
 
   .number__sub {
-    font-size: 14px !important;
+    font-size: 22px !important;
   }
 
   .text {
-    font-size: 14px !important;
-    line-height: 24px !important;
+    padding-top: 30px;
+    font-size: 20px !important;
+    line-height: 32px !important;
     height: 50px !important;
     width: 300px;
   }
@@ -982,13 +984,20 @@ h3 {
     width: 50px !important;
   }
   .fourth__block .fourth__block__wrapper .number__sub {
-    font-size: 14px !important;
+    font-size: 22px !important;
+  }
+  .fourth__block .fourth__block__wrapper .title {
+    font-size: 32px !important;
+    line-height: 40px !important;
+    width: 500px;
+    height: 32px !important;
+    white-space: nowrap;
   }
   .fourth__block .fourth__block__wrapper .text {
-    font-size: 14px !important;
-    line-height: 24px !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
     height: 50px !important;
-    width: 290px;
+    width: 480px;
   }
   .fourth__block .fourth__block__wrapper .fourth__block__img {
     width: 768px;
@@ -1026,20 +1035,27 @@ h3 {
     width: 50px !important;
   }
   .fifth__block .fifth__block__wrapper .number__sub {
-    font-size: 14px !important;
+    font-size: 22px !important;
+  }
+  .fifth__block .fifth__block__wrapper .title {
+    font-size: 32px !important;
+    line-height: 40px !important;
+    width: 500px;
+    height: 32px !important;
+    white-space: nowrap;
   }
   .fifth__block .fifth__block__wrapper .text {
-    font-size: 14px !important;
-    line-height: 24px !important;
+    font-size: 22px !important;
+    line-height: 32px !important;
     height: 50px !important;
-    width: 290px;
-    padding-top: 15px;
+    width: 480px;
+    padding-top: 60px;
   }
   .fifth__block .phone__wrapper {
     overflow-x: hidden;
     width: 100%;
     height: 464px;
-    margin-top: 400px;
+    margin-top: 450px;
   }
   .fifth__block .phone__wrapper .circle__wrapper {
     gap: 15px;
