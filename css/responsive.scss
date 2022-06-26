@@ -121,17 +121,16 @@
   }
 
   .fourth__block {
-    height: 421px;
     margin-top: 60px;
     .fourth__block__wrapper {
       display: flex;
       flex-direction: column;
       width: 100%;
+      padding: 50px 0 50px 20px;
 
       .number__block {
         height: 215px;
         width: 100%;
-        padding: 50px 0 50px 20px;
       }
       .number {
         height: 20px !important;
@@ -442,17 +441,16 @@
   }
 
   .fourth__block {
-    height: 421px;
     margin-top: 60px;
     .fourth__block__wrapper {
       display: flex;
       flex-direction: column;
       width: 100%;
+      padding: 50px 0 50px 20px;
 
       .number__block {
         height: 215px;
         width: 100%;
-        padding: 50px 0 50px 20px;
       }
       .number {
         height: 20px !important;
@@ -476,7 +474,6 @@
           display: block;
           width: 100%;
           height: 100%;
-          margin-top: 100px;
         }
         img {
           display: none;
@@ -521,7 +518,6 @@
       overflow-x: hidden;
       width: 100%;
       height: 282px;
-      margin-top: 100px;
 
       .circle__wrapper {
         gap: 15px;
